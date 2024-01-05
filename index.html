@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">about</a></li>
+                <li><a href="#projects">projects</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="about">
+        <h2>About </h2>
+        <p>Welcome to my portfolio! I am a passionate web developer with a strong focus on front-end technologies.</p>
+        <button id="Btn"   onclick="showSkills()">Show Skills</button>
+        <p id="skills" style="display: none;">HTML, CSS, JavaScript</p>
+    </section>
+    <div id="contact">
+        <h2> contact</h2>
+        <form id="form">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message"></textarea><br><br>
+            <input type="submit" value="Submit"  id="submit">
+        </form>
+    </div>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+        <a href="https://github.com/malik016/project">Tic Tac Toe</a>
+        <p>This Tic Tac Toe game project aims to create a simple and interactive implementation of the classic game.This game is designed for 3 players,who take turns marking spaces on a 3*3 grid.The objective is for a palyer to form a horizontal,vertical,or diagonal line of their symbol(either "X" or "0") before the opponent does.  <br>
+        Features:<br>1. User Interface <br>2. Game Logic<br> 3. Visual Interface <br>4.Restart and Quit Options <br>
+       Skills: <br>HTML,CSS, JavaScript,GIF, FONT, </p>
+
+            <!--p>This Project includes a basic structure for a portfolio website. The HTML file (index.html) contains
+                sections for "About", "Contact", and "Projects," along with a header and a footer. The CSS file
+                (style.css) provides some basic styling for the elements, such as the header, nav,media query, import
+                google font,buttons, and project sections. The JavaScript file (script.js) includes a simple function
+                that toggles the display of the "Skills" paragraph when the "Show Skills" button is clicked.</!--p-->
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <a href="https://github.com/malik016/project1">New Year Coutdown</a>
+            <p> The New Year Countdownand project is a digital tool designed to enhance the New year's Eve expirence.<br>
+            Features: <br>1.Coutdown Timer <br>2.User Interface <br>
+        Skills: <br> HTML,CSS,JavaScript,Font,</p>
+            <!--p>This Project includes a basic structure for a portfolio website. The HTML file (index.html) contains
+                sections for "About", "Contact", and "Projects," along with a header and a footer. The CSS file
+                (style.css) provides some basic styling for the elements, such as the header, nav,media query, import
+                google font,buttons, and project sections. The JavaScript file (script.js) includes a simple function
+                that toggles the display of the "Skills" paragraph when the "Show Skills" button is clicked.</!--p-->
+        </div>
+        <div class="project">
+            <h3>Project3</h3>
+            <a href="https://github.com/malik016/project2">Weather App</a>
+            <p>This weather project aims to show the exact temperature to the user. In this project, I used weather API which provided the correct temperature.<br>
+            Features: <br>1. User Interface <br>2. WeatherAPI <br>Skills: <br>
+            HTML , CSS , JavaScript , Font Icon, WeatherAPI
+            </p>
+       
+        
+        
+            </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My Portfolio</p>
+    </footer>
+    <script src="script.js"></script>
+    <script-- src="https://kit.fontawesome.com/f61029231e.js" crossorigin="anonymous"></script-->
+
+
+</body>
+</body>
+
+</html>

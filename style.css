@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
+
+
+body {
+    font-family: Arial, sans-serif;
+  }
+   #skills{
+    color: rgb(68, 115, 203);
+   }
+ 
+ 
+#Btn{
+  background-color:rgb(215, 185, 215);
+  font-weight: 500;
+  font-style: initial;
+}
+#submit{
+  background-color:rgb(215, 185, 215);
+  font-weight: 500;
+  font-style: initial;
+}
+
+
+#form{
+  color:rgb(20, 20, 20);
+  font-size: 1.2rem;
+  color: black;
+  font-weight: 500;
+  border-block-style: pink;
+}
+
+  header {
+    background-color:lightblue;
+  
+    text-align: center;
+    padding: 1rem 0;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+  }
+  
+  
+nav ul {
+    list-style: none;
+
+}
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+}
+li:hover{
+background-color: red;
+
+cursor: pointer;
+}
+
+#project{
+  font-family: 'Rubik Doodle Shadow', system-ui;
+
+}
+
+  section {
+    margin: 2rem 0;
+  }
+  
+  button {
+    padding: 0.5rem;
+  }
+  
+  .project {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  @media screen and (min-width: 480px) {
+    #leftsidebar {width: 200px; float: left;}
+    #main {margin-left: 216px;}
+  }
